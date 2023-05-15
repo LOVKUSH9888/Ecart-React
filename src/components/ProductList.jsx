@@ -1,15 +1,13 @@
-import React from "react";
-
 const ProductList = ({ products, addToCart }) => {
   return (
     <div className="flex">
       {products.map((productItem, productIndex) => {
         return (
-          <div key={productIndex} style={{ width: "33%" }}>
+          <div style={{ width: "33%" }} key={productIndex}>
             <div className="product-item">
-              <img src={productItem.url} alt={productItem.name} width="100%" />
+              <img src={productItem.url} width="100%" alt={productItem.name} />
               <p>
-                {productItem.name} | {productItem.category}{" "}
+                {productItem.name} | {productItem.category}
               </p>
               <p> {productItem.seller} </p>
               <p> Rs. {productItem.price} /-</p>

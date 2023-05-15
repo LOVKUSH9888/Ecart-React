@@ -41,16 +41,16 @@
   color: #888;
 }
 
-.flex{
+.flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-.shopping-card{
+.shopping-card {
   justify-content: space-between;
   background-color: aqua;
 }
 
-.product-item{
+.product-item {
   padding: 20px;
 }
