@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className='flex shopping-card'>
-      <div>Shopping cart</div>
-      <div>Cart
-      <sup> {'3'} </sup>
-      </div>
-    </div>
+            <div onClick={() => props.handleShow(false)} >Shopping Cart App</div>
+            <div onClick={() => props.handleShow(true)}> Cart
+                <sup> {props.count} </sup>
+            </div>
+        </div>
   )
 }
 
