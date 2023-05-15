@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopping-card{
+  justify-content: space-between;
+  background-color: aqua;
+}
